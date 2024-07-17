@@ -5,7 +5,6 @@ import { SignIn, SignInButton, SignOutButton, SignUp, SignUpButton, UserButton, 
 const Navbar = () => {
     const { user } = useUser()
 
-    console.log(user)
     return (
         <header className="bg-white dark:bg-gray-900" >
             <div className="mx-auto flex h-16 max-w-screen-2xl items-center gap-8 px-4 sm:px-6 lg:px-8">
